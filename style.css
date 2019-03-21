@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 body{
   background-color: #FFFFE0;
 }
@@ -29,14 +33,20 @@ a {
     text-decoration: none;
     color: #FFFFE0;
 }
+
+#name {
+  display: inline;
+
+}
+
 img {
 width: 2400px;
 height: 1000px;
 }
 h1 {
   position: absolute;
-  top: 20%;
-  left: 60%;
+  top: 8%;
+  left: 65%;
   transform: translate(-80%, -50%);
   font-size: 250px;
   font-family: serif;
@@ -60,6 +70,12 @@ h2 {
   font-size: 120px;
   font-family: serif;
   color: #008000;
+}
+
+form {
+  font-size: 40px;
+  font-family: serif;
+  color: black;
 }
 input{
   width: 450px;

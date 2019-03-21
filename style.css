@@ -1,25 +1,19 @@
-@media screen and (max-width: 600px){
-}
-
 body{
   background-color: #FFFFE0;
 }
 table {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
   width: 100%;
 text-align:center;
 background-color: #800000;
-
 }
-
 td {
   padding: 10px;
   border-spacing: 50px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
   color: #FFFFE0;
   font-size: 300%;
-  font-weight: bold;
-
+  font-weight: bold
 }
 td:hover{
   background-color: white;
@@ -28,7 +22,7 @@ a:hover {
   color: black;
 }
 a {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman';
     display: inline-block ;
     padding: 30px 15px;
     font-size:100%;
@@ -38,13 +32,7 @@ a {
 img {
 width: 2400px;
 height: 1000px;
-/*opacity: 0.8;*/
 }
- .picture {
-   position: relative;
-   text-align: center;
-   color: black;
- }
 h1 {
   position: absolute;
   top: 20%;
@@ -54,48 +42,14 @@ h1 {
   font-family: serif;
   color: #008000;
 }
-
-
-.form {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-}
-
-
-.form label {
-  margin: 5px 10px 5px 0;
-}
-
-
-.form input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
-.form button {
-  padding: 10px 20px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
-  color: white;
-}
-
-.form button:hover {
-  background-color: royalblue;
-}
-
-@media (max-width: 800px) {
-  .form input {
-    margin: 10px 0;
-  }
-}
-.myimg {
-  width: 350px;
-  height: 350px;
-  border-radius: 350px;
+form {
+  font-size: 50px;
+  font-family: serif;
+  color: #800000;
+ display: inline-block;
+  float: center;
+  margin: 2%;
+  width: 100%;
 }
 p {
   font-size: 60px;
@@ -107,29 +61,61 @@ h2 {
   font-family: serif;
   color: #008000;
 }
-#name{
-  border: 3px solid #F5DEB3;
-  width:30%;
-  hieght: 300px;
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-form {
-  font-size: 40px;
-  font-family: serif;
-  color: black;
-}
 input{
   width: 450px;
   height: 40px;
   font-size: 30px;
 }
 button{
-width: 300px;
-height: 60px;
-font-size: 40px;
+font-size:35px;
 }
 footer {
   font-size: 30px;
+ text-align: center;
+}
+h3{
+  font-size: 70px;
+  font-family: fantasy;
+  color: #008000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#FirstName {
+ width:33.3%;
+ height: auto;
+  float: left;
+  text-align: center;
+}
+#SecondName{
+ width:33.3%;
+ height: auto;
+  float: left;
+  text-align: center;
+}
+#ThirdName {
+ width:33%;
+ height: auto;
+  float: left;
+  text-align: center;
+}
+ .picturebackground {
+   position: relative;
+   text-align: center;
+ }
+.form input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.myimg {
+  width: 350px;
+  height: 350px;
+  border-radius: 350px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 30px;
+  }
 }
